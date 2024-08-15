@@ -14,7 +14,7 @@ function Login() {
     e.preventDefault();
 
     try {
-      const response = await axios.post("https://smit-hackthon-quiz-portal.vercel.app/login", {
+      const response = await axios.post("http://https://smit-hackthon-quiz-portal.vercel.app/login", {
         email,
         password,
       });
